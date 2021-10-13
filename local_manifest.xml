@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
        <remote name="bhargavpalan"
 		fetch="https://github.com/bhargavpalan" />
 	
@@ -15,9 +16,21 @@
 	<remote name="pe"
 		fetch="https://github.com/PixelExperience" />
 
- <!-- Trees -->
- <project path="device/xiaomi/vince" name="bhargavpalan/device_xiaomi_vince-1.git" remote="bhargavpalan" revision="arrow-11.0" />
- <project path="vendor/xiaomi/vince" name="bhargavpalan/vendor_xiaomi_vince.git" remote="bhargavpalan" revision="11" />
- <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
- 
+ 	<!-- Trees -->
+ 	<project path="device/xiaomi/vince" name="bhargavpalan/device_xiaomi_vince-1.git" remote="bhargavpalan" revision="arrow-11.0" />
+ 	<project path="vendor/xiaomi/vince" name="bhargavpalan/vendor_xiaomi_vince.git" remote="bhargavpalan" revision="11" />
+ 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
+ 	
+	<!-- remove hals-->
+	
+	<remove-project name="android_hardware_qcom_audio"/>
+	<remove-project name="android_hardware_qcom_display" />
+	<remove-project name="android_hardware_qcom_media" />
+	
+	<!--clonehals-->
+	
+	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
+	
 </manifest>
