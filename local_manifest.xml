@@ -21,6 +21,7 @@
  	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="bhargavpalan" revision="11" />
  	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+	
  	
 	<!-- remove hals-->
 	
@@ -33,5 +34,8 @@
 	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
 	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
 	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
+	
+	<!--Extra Stuffs-->
+	<project path="OTA" name="OTA" remote="bhargavpalan" revision="master" clone-depth="1" />
 	
 </manifest>
