@@ -18,6 +18,9 @@
 	
 	<remote name="bhargavpalan2"
 		fetch="https://gitlab.com/bhargavpalan" />
+	
+        <remote name="arrow"
+		fetch="https://github.com/ArrowOS" />
 
  	<!-- Trees -->
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="bhargavpalan" revision="11" />
@@ -32,8 +35,8 @@
 	<remove-project name="android_hardware_qcom_media" />
 
 	<!--clonehals-->
-	<project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="line" revision="lineage-18.1-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="line" revision="lineage-18.1-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="line" revision="lineage-18.1-caf-msm8996" />
+	<project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
+	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
+	<project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-msm89986" />
 	
 </manifest>
