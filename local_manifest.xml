@@ -22,7 +22,7 @@
  	<!-- Trees -->
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="bhargavpalan" revision="11" />
  	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="bhargavpalan" revision="11" />
- 	<project path="vendor/xiaomi" name="vendor_xiaomi" remote="bhargavpalan" revision="main" />
+ 	<project path="vendor/xiaomi" name="vendor-xiaomi" remote="bhargavpalan2" revision="lineage-18.1" />
  	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
