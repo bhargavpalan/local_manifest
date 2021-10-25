@@ -19,11 +19,8 @@
 	<remote name="bhargavpalan2"
 		fetch="https://gitlab.com/bhargavpalan" />
 	
-        <remote name="arrow"
-		fetch="https://github.com/ArrowOS" />
-	
-        <remote name="addy"
-		fetch="https://github.com/adnan-44" />	
+        <remote  name="sakhiofsakshi"
+                fetch="https://github.com/sakhiofsakshi" />
 
  	<!-- Trees -->
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="bhargavpalan" revision="11" />
@@ -31,5 +28,8 @@
  	<project path="vendor/xiaomi" name="vendor-xiaomi" remote="bhargavpalan2" revision="lineage-18.1" />
  	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+	
+        <remove-project name="android_device_cherish_sepolicy"/>
+        <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="sakhiofsakshi" revision="eleven" />
 
 </manifest>
