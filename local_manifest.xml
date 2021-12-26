@@ -31,7 +31,7 @@
 	
 	<!--clonehals-->
 	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" revision="eleven" remote="pe" />
-	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_display" revision="eleven" remote="pe" />
-	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_media" revision="eleven" remote="pe" />
+	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" revision="eleven" remote="pe" />
+	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="eleven" remote="pe" />
 	
 </manifest>
