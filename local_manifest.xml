@@ -25,9 +25,9 @@
  	<!-- Trees -->
  	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="bhargavpalan" revision="experimental" />
   	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="bhargavpalan" revision="11" clone-depth="1" />
- 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="da" revision="darky" />
-        <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="clang" revision="master" />
-	
+ 	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="stable" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+
 	<!-- remove hals-->
 	<remove-project name="android_hardware_qcom_audio"/>
 	<remove-project name="android_hardware_qcom_display" />
