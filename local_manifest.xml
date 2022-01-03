@@ -29,9 +29,9 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
 	<!-- remove hals-->
-	<remove-project name="android_hardware_qcom_audio"/>
-	<remove-project name="android_hardware_qcom_display" />
-	<remove-project name="android_hardware_qcom_media" />
+  	<remove-project name="LineageOS/android_hardware_qcom_audio" />
+  	<remove-project name="PixelExperience/hardware_qcom-caf_msm8996-r_display" />
+ 	<remove-project name="PixelExperience/hardware_qcom-caf_msm8996-r_media" />
 	
 	<!--clonehals-->
 	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" revision="eleven" remote="pe" />
