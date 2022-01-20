@@ -23,7 +23,7 @@
 		fetch="https://github.com/Blacksuan19" />	
 	
  	<!-- Trees -->
- 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="bhargavpalan" revision="testing" />
+ 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="bhargavpalan" revision="experimental" />
   	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="bhargavpalan" revision="experimental" clone-depth="1" />
  	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="stable" />
         
