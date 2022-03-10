@@ -3,39 +3,19 @@
 
 	<remote name="Uni"
 		fetch="https://github.com/GhostMaster69-dev"/>
-
- 	<!-- Toolchain -->
-  	<remote name="cosmic"
-	 fetch="https://gitlab.com/GhostMaster69-dev"
-	 revision="master" />	
+	
+	<remote name="cosmic"
+		fetch="https://gitlab.com/GhostMaster69-dev"/>	
 	
         <remote name="bhargavpalan"
 		fetch="https://github.com/bhargavpalan" />
-	
-        <remote name="tellenium"
-		fetch="https://github.com/gamehackerever/" />
-	
-	<remote name="clang"
-		fetch="https://github.com/kdrag0n" />
-	
-	<remote  name="Uni"
-                 fetch="https://github.com/GhostMaster69-dev" />
-	
-        <remote  name="PE"
-                 fetch="https://github.com/PixelExperience" />
-	
-	<remote  name="AddyGod"
-		 fetch="https://github.com/adnan-44" />
-	
-	<remote  name="Arrow"
-		 fetch="https://github.com/ArrowOS" />
-	
+		
  	<!-- Trees -->
  	<project path="device/xiaomi/vince" name="device_xiaomi_vince1" remote="bhargavpalan" revision="cherish-a12" />
   	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince1" remote="bhargavpalan" revision="cherish-a12" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince remote="Uni" revision="stable" clone-depth="1" />
 	
 	<!-- Clang -->
-	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
 														
 </manifest>
