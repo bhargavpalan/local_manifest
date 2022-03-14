@@ -13,7 +13,7 @@
  	<!-- Trees -->
  	<project path="device/xiaomi/vince" name="device_xiaomi_vince1" remote="bhargavpalan" revision="cherish-a12" />
   	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince1" remote="bhargavpalan" revision="cherish-a12" />
-        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="stable" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
 	
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
