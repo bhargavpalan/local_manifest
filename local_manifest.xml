@@ -12,7 +12,7 @@
 		
  	<!-- Trees -->
  	<project path="device/xiaomi/vince" name="device_xiaomi_vince1" remote="bhargavpalan" revision="corvus" />
-  	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince1" remote="bhargavpalan" revision="bliss" />
+  	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince1" remote="bhargavpalan" revision="cherish" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
 	
 	<!-- Clang -->
