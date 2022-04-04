@@ -20,7 +20,7 @@
 	
 	<!--bootable-recovery-->
 	<remove-project name="platform_bootable_recovery"/>
-	<project path="bootable/recovery" name=" platform_bootable_recovery" remote="bhargavpalan" revision="twelve"/>
+	<project path="bootable/recovery" name=" platform_bootable_recovery" remote="bhargavpalan" revision="arcadia"/>
 														
 </manifest>
  
