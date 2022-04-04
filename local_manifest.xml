@@ -21,6 +21,10 @@
 	<!--bootable-recovery-->
 	<remove-project name="platform_bootable_recovery"/>
 	<project path="bootable/recovery" name=" platform_bootable_recovery" remote="bhargavpalan" revision="arcadia"/>
+	
+	<!--platform_frameworks_opt_telephony-->
+	<remove-project name="platform_frameworks_opt_telephony"/>
+	<project path="frameworks/opt/telephony" name=" platform_frameworks_opt_telephony" remote="bhargavpalan" revision="arcadia"/>
 														
 </manifest>
  
