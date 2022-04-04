@@ -17,5 +17,10 @@
 	
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
+	
+	<!--bootable-recovery-->
+	<remove-project name="platform_bootable_recovery"/>
+	<project path="bootable/recovery" name=" platform_bootable_recovery" remote="bhargavpalan" revision="twelve"/>
 														
 </manifest>
+ 
