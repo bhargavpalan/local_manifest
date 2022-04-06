@@ -9,6 +9,9 @@
 	
         <remote name="bhargavpalan"
 		fetch="https://github.com/bhargavpalan" />
+	
+        <remote name="addy"
+		fetch="https://github.com/adnan-44" />
 		
  	<!-- Trees -->
  	<project path="device/xiaomi/vince" name="device_xiaomi_vince1" remote="bhargavpalan" revision="bliss" />
@@ -25,6 +28,8 @@
 	<!--platform_frameworks_opt_telephony-->
 	<remove-project name="platform_frameworks_opt_telephony"/>
 	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="bhargavpalan" revision="arcadia"/>
-														
+		
+	<!--wlan--->
+	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve"/>
 </manifest>
  
