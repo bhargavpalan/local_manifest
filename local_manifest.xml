@@ -17,4 +17,9 @@
 	
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
+
+	<!-- Vendor-Evolution -->
+	<remove-project name="vendor_evolution"/>
+	<project path="vendor/evolution" name="vendor_evolution" remote="bhargavpalan" revision="snow"/>
+	
 </manifest>
