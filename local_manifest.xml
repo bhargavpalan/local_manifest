@@ -28,8 +28,7 @@
 	<!--platform_frameworks_opt_telephony-->
 	<remove-project name="platform_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="bhargavpalan" revision="arcadia" />
-		
-	<!--wlan--->
+	
 	<remove-project name="android_hardware_qcom_wlan"/>
 	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve" />
 </manifest>
