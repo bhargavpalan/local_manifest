@@ -2,13 +2,16 @@
 <manifest>
 
 	<remote name="Uni"
-		fetch="https://github.com/GhostMaster69-dev"/>
+	    fetch="https://github.com/GhostMaster69-dev" />
 	
 	<remote name="cosmic"
-		fetch="https://gitlab.com/GhostMaster69-dev"/>	
+	    fetch="https://gitlab.com/GhostMaster69-dev" />	
 	
         <remote name="bhargavpalan"
-		fetch="https://github.com/bhargavpalan" />
+            fetch="https://github.com/bhargavpalan" />
+	
+        <remote name="addy"
+            fetch="https://github.com/adnan-44" />
 		
  	<!-- Trees -->
  	<project path="device/xiaomi/vince" name="device_xiaomi_vince1" remote="bhargavpalan" revision="testing" />
@@ -17,5 +20,4 @@
 	
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
-														
 </manifest>
