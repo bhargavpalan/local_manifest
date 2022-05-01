@@ -11,8 +11,8 @@
 		fetch="https://github.com/bhargavpalan" />
 		
  	<!-- Trees -->
- 	<project path="device/xiaomi/vince" name="device_xiaomi_vince3" remote="bhargavpalan" revision="cherish" />
-  	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince3" remote="bhargavpalan" revision="cherish" />
+ 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="bhargavpalan" revision="cherish" />
+  	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="bhargavpalan" revision="cherish" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
 	
 	<!-- Clang -->
