@@ -14,23 +14,10 @@
             fetch="https://github.com/adnan-44" />
 		
  	<!-- Trees -->
- 	<project path="device/xiaomi/vince" name="device_xiaomi_vince1" remote="bhargavpalan" revision="bliss" />
-  	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince1" remote="bhargavpalan" revision="cherish" />
+ 	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince-1" remote="bhargavpalan" revision="12" />
+  	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="bhargavpalan" revision="Evolution-X" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
 	
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
-	
-	<!--bootable-recovery-->
-	<remove-project name="platform_bootable_recovery" />
-	<project path="bootable/recovery" name="platform_bootable_recovery" remote="bhargavpalan" revision="arcadia" />
-	
-	<!--platform_frameworks_opt_telephony-->
-	<remove-project name="platform_frameworks_opt_telephony" />
-	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="bhargavpalan" revision="arcadia" />
-	
-	<!--wifi-->
-	<remove-project name="android_hardware_qcom_wlan" />
-	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve" />
-	<project path="hardware/qcom/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve" />
 </manifest>
